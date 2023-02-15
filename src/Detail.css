@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-container {
+    height: 60vh;
+    background: linear-gradient(130deg, rgb(176, 246, 176)0%,rgb(77, 170, 30)30%, rgb(187, 187, 187)50%, rgb(54, 53, 51)70%, rgb(56, 56, 56)50%, rgb(206, 206, 206)92%, rgb(190, 190, 190)100%);
+}
+
+.second-container {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.36);
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+
+.youtube {
+    height: 50vh;
+}
+
+.logo-kanan-atas {
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.827);
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 780px) {
+
+}
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+ 
+::-webkit-scrollbar-track {     
+    background: #fff;
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
